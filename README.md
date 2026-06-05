@@ -11,8 +11,8 @@ This repo is the tap. Add it (the name **must** be `adelie-ai/adelie` so the
 meta-formulas resolve their cross-references):
 
 ```sh
-# from the local checkout
-brew tap adelie-ai/adelie /home/dave/Projects/adelie-ai/brew-tap
+# from a local checkout (substitute your path)
+brew tap adelie-ai/adelie /path/to/homebrew-adelie
 
 # …or, once it's pushed to github.com/adelie-ai/homebrew-adelie
 brew tap adelie-ai/adelie
@@ -110,5 +110,7 @@ meta revisions to match).
 
 ## Licensing
 
-The Adelie components are AGPL-3.0-or-later. MCP-server formulas omit a `license`
-stanza pending confirmation of each repo's license.
+This tap — the formula definitions in this repo — is BSD-2-Clause (see `LICENSE`),
+matching the Homebrew convention for taps. That covers only the packaging
+metadata; the Adelie software the formulas build is AGPL-3.0-or-later. MCP-server
+formulas omit a `license` stanza pending confirmation of each repo's license.
