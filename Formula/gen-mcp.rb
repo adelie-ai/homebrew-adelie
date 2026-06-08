@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
-# General-purpose MCP server. Repo is `gen-mcp`; the installed binary is `genmcp`.
-# Pure Rust (rustls).
+# General-purpose MCP server. Repo and installed binary are both `gen-mcp`.
 class GenMcp < Formula
-  desc "General-purpose MCP server (genmcp) for the Adelie assistant"
+  desc "General-purpose MCP server (gen-mcp) for the Adelie assistant"
   homepage "https://github.com/adelie-ai/gen-mcp"
   url "https://github.com/adelie-ai/gen-mcp.git",
-      revision: "e3b71463bc74f6430c5d5b07b90521f9ba7fa7ad"
+      revision: "8d54d34ff12ec3ff87c33ea90806b9ac328c504f"
   version "0.1.0"
   head "https://github.com/adelie-ai/gen-mcp.git", branch: "main"
 
@@ -19,11 +18,11 @@ class GenMcp < Formula
 
   def caveats
     <<~EOS
-      Run as an MCP server with: genmcp serve
+      Run as an MCP server with: gen-mcp serve
     EOS
   end
 
   test do
-    assert_match "genmcp", shell_output("#{bin}/genmcp --help 2>&1")
+    assert_match "gen-mcp", shell_output("#{bin}/gen-mcp --help 2>&1")
   end
 end
