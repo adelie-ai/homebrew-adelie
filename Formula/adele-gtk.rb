@@ -14,7 +14,7 @@ class AdeleGtk < Formula
   desc "GTK4 desktop client for the Adelie desktop assistant"
   homepage "https://github.com/adelie-ai/adele-gtk"
   url "https://github.com/adelie-ai/adele-gtk.git",
-      revision: "792b9ffbb429b8984c1250232966f40e1ebf6a9f"
+      revision: "470277758733f4101563e5711b09850fbbab9c12"
   version "0.1.0"
   license "AGPL-3.0-or-later"
   head "https://github.com/adelie-ai/adele-gtk.git", branch: "main"
