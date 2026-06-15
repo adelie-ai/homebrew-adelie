@@ -30,7 +30,7 @@ brew install weather-forecast-mcp   # one MCP server
 
 | Formula | Binary(ies) | Platform | Extra deps (beyond rust + cmake) |
 |---|---|---|---|
-| `adelie-daemon` | `desktop-assistant-daemon`, `adelie-mint`, `adelie-dbus-bridge` | Linux | `postgresql@17`, `pgvector`, pkg-config |
+| `adelie-daemon` | `desktop-assistant-daemon`, `adelie-dbus-bridge` | Linux | `postgresql@17`, `pgvector`, pkg-config |
 | `adele-tui` | `adele` | Linux + macOS | — |
 | `adele-gtk` | `adele-gtk` | Linux | `gtk4`, `webkitgtk`, pkg-config |
 | `adele-voice` | `adele-voice` | Linux | `espeak-ng`, `alsa-lib`, pkg-config |
