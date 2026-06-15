@@ -9,9 +9,9 @@ class AdelieMcp < Formula
       revision: "0bbcc3fec75cd69cc565850b8b4d67ad5bf60011"
   version "0.1.0"
 
+  depends_on "adelie-ai/adelie/command-mcp"
   depends_on "adelie-ai/adelie/cve-mcp"
   depends_on "adelie-ai/adelie/fileio-mcp"
-  depends_on "adelie-ai/adelie/gen-mcp"
   depends_on "adelie-ai/adelie/geocode-mcp"
   depends_on "adelie-ai/adelie/internet-radio-mcp"
   depends_on "adelie-ai/adelie/tasks-mcp"
